@@ -40,7 +40,7 @@
 
 .right {
   width: 100%/2;
-  margin-top: 36px;
+  margin-top: 30px;
 }
 
 .hero-content {
@@ -59,6 +59,21 @@
 }
 
 .custom-hero:hover {
+  background-color: #5cb85f;
+  opacity: 0.9;
+}
+
+.button-navbar {
+  width: 81px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  border: none;
+  padding: 8px, 12px, 8px, 12px;
+  color: #fff;
+}
+
+.button-navbar:hover {
   background-color: #5cb85f;
   opacity: 0.9;
 }
