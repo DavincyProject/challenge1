@@ -67,6 +67,17 @@ section {
     width: 65%;
   }
 
+  .custom-size {
+    width: 252px;
+    height: 228px;
+  }
+
+  .custom-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .service-font h2 {
     line-height: 36px;
     font-size: 24px;
