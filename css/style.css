@@ -1,6 +1,6 @@
-* {
-  font-family: "Helvetica";
-}
+/* * {
+  font-family: "Helvetica , sans-serif";
+} */
 
 section {
   scroll-margin-top: 100px;
@@ -26,7 +26,8 @@ section {
   font-size: 14px;
 }
 
-.custom-hero:hover {
+.custom-hero:hover,
+.button-navbar:hover {
   background-color: #5cb85f;
   opacity: 0.9;
 }
@@ -39,11 +40,6 @@ section {
   border: none;
   padding: 8px, 12px, 8px, 12px;
   color: #fff;
-}
-
-.button-navbar:hover {
-  background-color: #5cb85f;
-  opacity: 0.9;
 }
 
 /* end button style */
@@ -60,8 +56,31 @@ section {
   line-height: 20px;
 }
 
-@media (min-width: 768px) {
-  .custom-font-size {
+.custom-footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  #offcanvasNavbar {
+    width: 65%;
+  }
+
+  .service-font h2 {
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .service-font p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+
+  .custom-faq h1,
+  .custom-faq p {
     text-align: center;
   }
 }
