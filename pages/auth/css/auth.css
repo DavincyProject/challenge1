@@ -1,0 +1,51 @@
+.custom-size {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0d28a6;
+}
+
+.custom-display {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .img-side {
+    display: none;
+  }
+
+  .custom-breakpoint {
+    min-height: 100vh;
+  }
+
+  .custom-display {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-side {
+    display: none;
+  }
+
+  .custom-breakpoint {
+    min-height: 100vh;
+  }
+
+  .custom-display {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .img-side {
+    display: none;
+  }
+
+  .custom-breakpoint {
+    min-height: 100vh;
+  }
+
+  .custom-display {
+    display: initial;
+  }
+}
