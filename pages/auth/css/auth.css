@@ -48,4 +48,8 @@
   .custom-display {
     display: initial;
   }
+
+  .bottom-size p {
+    font-size: 12px;
+  }
 }
